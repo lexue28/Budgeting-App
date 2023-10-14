@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="input_tag"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input money spent in each category:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/text_groceries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text = "0"
+        android:translationX="150dp"
+        android:translationY="150dp" />
+
+    <EditText
+        android:id="@+id/text_rent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text = "0"
+        android:translationX="150dp"
+        android:translationY="200dp" />
+
+    <EditText
+        android:id="@+id/text_maintenance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text = "0"
+        android:translationX="150dp"
+        android:translationY="250dp" />
+
+    <EditText
+        android:id="@+id/text_medical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text = "0"
+        android:translationX="150dp"
+        android:translationY="300dp" />
+
+    <EditText
+        android:id="@+id/text_clothes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text = "0"
+        android:translationX="150dp"
+        android:translationY="350dp" />
+
+    <EditText
+        android:id="@+id/text_entertainment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text = "0"
+        android:translationX="150dp"
+        android:translationY="400dp" />
+
+    <EditText
+        android:id="@+id/text_savings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text = "0"
+        android:translationX="150dp"
+        android:translationY="450dp" />
+
+    <EditText
+        android:id="@+id/text_others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text = "0"
+        android:translationX="150dp"
+        android:translationY="500dp" />
+
+    <TextView
+        android:id="@+id/text_necessities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Necessities:"
+        android:textColor="@color/purple_700"
+        android:translationX="50dp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/text_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="Money Left"
+        android:textColor="@color/Left"
+        android:translationX="150dp"
+        android:translationY="650dp" />
+
+    <TextView
+        android:id="@+id/label_groceries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="Groceries:"
+        android:textColor="@color/Groceries"
+        android:translationX="50dp"
+        android:translationY="160dp" />
+
+    <TextView
+        android:id="@+id/label_rent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="Rent:"
+        android:textColor="@color/Rent"
+        android:translationX="50dp"
+        android:translationY="210dp" />
+
+    <TextView
+        android:id="@+id/label_maintenance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="Maintenance:"
+        android:textColor="@color/Maintenance"
+        android:translationX="50dp"
+        android:translationY="260dp" />
+
+    <TextView
+        android:id="@+id/label_medical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="Medical Care:"
+        android:textColor="@color/Medical"
+        android:translationX="50dp"
+        android:translationY="310dp" />
+
+    <TextView
+        android:id="@+id/label_clothes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="Clothes:"
+        android:textColor="@color/Clothes"
+        android:translationX="50dp"
+        android:translationY="360dp" />
+
+    <TextView
+        android:id="@+id/label_entertainment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="Entertainment:"
+        android:textColor="@color/Entertainment"
+        android:translationX="50dp"
+        android:translationY="410dp" />
+
+    <TextView
+        android:id="@+id/label_savings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="Savings:"
+        android:textColor="@color/Savings"
+        android:translationX="50dp"
+        android:translationY="460dp" />
+
+    <TextView
+        android:id="@+id/label_others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="Others:"
+        android:textColor="@color/Others"
+        android:translationX="50dp"
+        android:translationY="510dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:translationX="150dp"
+        android:translationY="575dp" />
+
+    <EditText
+        android:id="@+id/text_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text = "0"
+        android:translationX="150dp"
+        android:translationY="50dp" />
+
+    <TextView
+        android:id="@+id/label_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="Total:"
+        android:textColor="@color/Left"
+        android:translationX="50dp"
+        android:translationY="60dp" />
+
+    <Button
+        android:id="@+id/bankButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank"
+        android:translationX="300dp"
+        android:translationY="575dp" />
+</RelativeLayout>

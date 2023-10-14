@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/budget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_light"
+        android:scaleX="3.5"
+        android:scaleY="3.5"
+        android:text="Piggy Bank!"
+        android:translationX="100dp"
+        android:translationY="60dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="400dp"
+        android:layout_height="740dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="We all love to have money but when it comes to money management, we unfortunately have a hard time. But what if it didn’t need to be so difficult? Introducing Piggy Bank - a simple, easy-to-use money managing app that helps you keep track of all your bills and save up. The Piggy Bank app features a chart that is filled with all of your bills and subscriptions to help you both visualize how much you’re spending on necessities, while also showing you how much money you have left over and your net balance. The built in calendar feature helps the user remember bill due dates so you don’t ever pay late on a bill. Piggy Bank is the perfect family friendly budgeting app for everyone! So why struggle with money management when you could download and save up?"
+        android:textSize="20sp"
+        android:translationX="10dp"
+        android:translationY="115dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_light"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Introducing:"
+        android:translationX="50dp"
+        android:translationY="20dp" />
+
+</RelativeLayout>

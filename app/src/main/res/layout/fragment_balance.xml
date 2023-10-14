@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your total net balance:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/display_spent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:text="TextView"
+        android:translationX="220dp"
+        android:translationY="300dp" />
+
+    <TextView
+        android:id="@+id/display_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:text="TextView"
+        android:translationX="220dp"
+        android:translationY="400dp" />
+
+    <TextView
+        android:id="@+id/display_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:text="TextView"
+        android:translationX="220dp"
+        android:translationY="200dp" />
+
+    <TextView
+        android:id="@+id/balance_total_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="Total:"
+
+        android:translationX="50dp"
+        android:translationY="200dp" />
+
+    <TextView
+        android:id="@+id/balance_spent_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="Spent:"
+
+        android:translationX="50dp"
+        android:translationY="300dp" />
+
+    <TextView
+        android:id="@+id/balance_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="Balance:"
+
+        android:translationX="50dp"
+        android:translationY="400dp" />
+</RelativeLayout>
